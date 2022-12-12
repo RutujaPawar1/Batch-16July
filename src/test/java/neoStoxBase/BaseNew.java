@@ -27,6 +27,11 @@ public class BaseNew
 		driver.get(UtilityNew.readDataFromPropertyFile("url"));//only this change property file use
 		
 		Reporter.log("Launching browser", true);
+		
+		
+		
+		
+		
 		Thread.sleep(1000);
 	}
 	
