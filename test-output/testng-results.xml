@@ -158,12 +158,12 @@
       <![CDATA[closing browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-02T22:53:36 IST" name="Default suite" finished-at="2022-12-02T22:57:11 IST" duration-ms="214785">
+  <suite started-at="2022-12-13T16:44:20 IST" name="Default suite" finished-at="2022-12-13T16:45:43 IST" duration-ms="83080">
     <groups>
     </groups>
-    <test started-at="2022-12-02T22:53:36 IST" name="Default test" finished-at="2022-12-02T22:57:11 IST" duration-ms="214785">
+    <test started-at="2022-12-13T16:44:20 IST" name="Default test" finished-at="2022-12-13T16:45:43 IST" duration-ms="83080">
       <class name="neoStoxTest.validateNeoStoxAccBalance3">
-        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:53:36 IST" name="launchNeoStox" finished-at="2022-12-02T22:54:07 IST" duration-ms="30901" status="PASS">
+        <test-method is-config="true" signature="launchNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:44:20 IST" name="launchNeoStox" finished-at="2022-12-13T16:44:31 IST" duration-ms="11209" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reading url from property file]]>
@@ -173,7 +173,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchNeoStox -->
-        <test-method is-config="true" signature="logintoNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:54:07 IST" name="logintoNeoStox" finished-at="2022-12-02T22:56:37 IST" duration-ms="149886" status="PASS">
+        <test-method is-config="true" signature="logintoNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:44:31 IST" name="logintoNeoStox" finished-at="2022-12-13T16:45:13 IST" duration-ms="41355" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting for 5000ms]]>
@@ -231,7 +231,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logintoNeoStox -->
-        <test-method signature="validateUserId()[pri:-1, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:56:37 IST" name="validateUserId" finished-at="2022-12-02T22:56:37 IST" duration-ms="68" status="PASS">
+        <test-method signature="validateUserId()[pri:-1, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:45:13 IST" name="validateUserId" finished-at="2022-12-13T16:45:13 IST" duration-ms="62" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting for 5000ms]]>
@@ -250,7 +250,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateUserId -->
-        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:56:37 IST" name="logOutFromNeoStox" finished-at="2022-12-02T22:56:38 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:45:13 IST" name="logOutFromNeoStox" finished-at="2022-12-13T16:45:13 IST" duration-ms="148" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting for 5000ms]]>
@@ -263,7 +263,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logOutFromNeoStox -->
-        <test-method is-config="true" signature="logintoNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:56:38 IST" name="logintoNeoStox" finished-at="2022-12-02T22:57:10 IST" duration-ms="32692" status="PASS">
+        <test-method is-config="true" signature="logintoNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:45:13 IST" name="logintoNeoStox" finished-at="2022-12-13T16:45:42 IST" duration-ms="29393" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting for 5000ms]]>
@@ -309,7 +309,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logintoNeoStox -->
-        <test-method signature="validateAccBalance()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:57:10 IST" name="validateAccBalance" finished-at="2022-12-02T22:57:10 IST" duration-ms="45" status="FAIL">
+        <test-method signature="validateAccBalance()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:45:42 IST" name="validateAccBalance" finished-at="2022-12-13T16:45:42 IST" duration-ms="42" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -371,7 +371,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- validateAccBalance -->
-        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:57:11 IST" name="logOutFromNeoStox" finished-at="2022-12-02T22:57:11 IST" duration-ms="418" status="PASS">
+        <test-method is-config="true" signature="logOutFromNeoStox()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:45:42 IST" name="logOutFromNeoStox" finished-at="2022-12-13T16:45:43 IST" duration-ms="376" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Waiting for 5000ms]]>
@@ -384,7 +384,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- logOutFromNeoStox -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-02T22:57:11 IST" name="closeBrowser" finished-at="2022-12-02T22:57:11 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:neoStoxTest.validateNeoStoxAccBalance3@23c30a20]" started-at="2022-12-13T16:45:43 IST" name="closeBrowser" finished-at="2022-12-13T16:45:43 IST" duration-ms="236" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closing browser]]>

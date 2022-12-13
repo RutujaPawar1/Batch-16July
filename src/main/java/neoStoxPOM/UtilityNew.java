@@ -39,7 +39,7 @@ public class UtilityNew {
 		wait(driver,5000);
 	
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File destination =new File("C:\\My_16 evning batch\\selenium\\screenshot//myfile1"+screenShotName+".png");
+		File destination =new File("C:\\My_16 evning batch\\selenium\\screenshot\\myfile1"+screenShotName+".png");
 		FileHandler.copy(src, destination);
 		Reporter.log("taking screenshot", true);
 	     }

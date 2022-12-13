@@ -7,7 +7,6 @@
         <methods>
           <include name="launchNeoStox"/>
           <include name="closeBrowser"/>
-          <include name="validateUserId"/>
           <include name="validateAccBalance"/>
           <include name="logintoNeoStox"/>
           <include name="logOutFromNeoStox"/>
